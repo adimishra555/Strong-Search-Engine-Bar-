@@ -2,8 +2,10 @@
 __pycache__/
 .env
 db.sqlite3
-media/
 staticfiles/
 venv/
 .DS_Store
-images/
+.gitignore
+*.log
+*.pot
+*.pyc

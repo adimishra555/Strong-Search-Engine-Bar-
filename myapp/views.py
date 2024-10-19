@@ -35,9 +35,6 @@ def product_list(request):
 
     return render(request, 'product_list.html', {'form': form, 'products': products})
 
-
-
-
 def add_product(request):
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES)
